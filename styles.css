@@ -1,0 +1,10 @@
+p {
+    text-indent: 25px;   /* красная строка */
+    margin: 5px 0;       /* маленький отступ между абзацами */
+}
+
+p.letter:first-letter {
+    color: red;          /* цвет буквицы */
+    font-size: 200%;     /* увеличение */
+    font-weight: bold;   /* жирный */
+}
